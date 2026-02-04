@@ -19,6 +19,10 @@ function Contact() {
               Whether you have a question or just want to say hi, feel free to reach out!
             </p>
             
+            <p className="location-info">
+              📍 Toronto, Canada
+            </p>
+            
             <div className="social-links">
               <a 
                 href="https://github.com/ibrahimyondem" 
@@ -56,7 +60,7 @@ function Contact() {
       
       <footer className="footer">
         <Container>
-          <p>©2026 built by Ibrahim Yondem</p>
+          <p>©2026 built by Ibrahim Yondem • Toronto, Canada</p>
         </Container>
       </footer>
     </>
