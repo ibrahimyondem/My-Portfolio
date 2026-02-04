@@ -3,6 +3,8 @@ import { Container } from "react-bootstrap";
 import "../styles/Contact.css";
 
 function Contact() {
+  const email = ['ibrahim', 'yondem', 'dev', '@', 'gmail', '.', 'com'].join('');
+  
   return (
     <>
       <section className="contact-section" id="contact">
@@ -37,7 +39,7 @@ function Contact() {
                 <span>💼</span>
               </a>
               <a 
-                href="mailto:ibrahimyondemdev@gmail.com"
+                href={`mailto:${email}`}
                 className="social-link"
                 aria-label="Email"
               >
@@ -45,7 +47,7 @@ function Contact() {
               </a>
             </div>
             
-            <a href="mailto:ibrahimyondemdev@gmail.com" className="contact-email">
+            <a href={`mailto:${email}`} className="contact-email">
               Send me an email
             </a>
           </div>

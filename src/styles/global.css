@@ -123,6 +123,14 @@ a:hover {
   color: var(--primary-dark);
 }
 
+.scroll-indicator{
+    color: var(--primary-color);
+}
+
+.scroll-indicator:hover{
+    color: var(--primary-dark);
+}
+
 
 .container-section {
   max-width: 1200px;
