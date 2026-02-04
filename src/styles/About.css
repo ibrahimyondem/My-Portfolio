@@ -17,10 +17,13 @@
 }
 
 .about-text p {
-  font-size: 1.125rem;
+  font-size: 1.135rem;
   line-height: 1.8;
   color: var(--text-secondary);
   margin-bottom: 1.5rem;
+}
+.college-name{
+  color: var(--college-color);
 }
 
 .about-highlights {
