@@ -14,7 +14,7 @@ function App() {
     const handleContextMenu = (e) =>{
       e.preventDefault();
     };
-
+    
     document.addEventListener('contextmenu', handleContextMenu);
 
     return () => {

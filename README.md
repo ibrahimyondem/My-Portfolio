@@ -13,6 +13,3 @@
 npm install
 npm run dev
 ```
-
-## Contact
-ibrahimyondemdev@gmail.com 
