@@ -2,9 +2,9 @@
 
 Welcome to my portfolio!
 
-## 🌟 Features
+![Landing Page](/src/assets/landing_page.png)
 
-[src/assets/landing_page.png]
+## 🌟 Features
 
 - **Responsive Design** - Works seamlessly on all devices
 - **Smooth Navigation** - Hash-based routing with smooth scrolling
