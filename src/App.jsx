@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import NavBar from "./components/NavBar";
 import Home from "./components/Home";
 import About from "./components/About";
@@ -8,7 +8,20 @@ import Contact from "./components/Contact";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles/global.css";
 
+// Prevent sag-click 
 function App() {
+  useEffect(() => {
+    const handleContextMenu = (e) =>{
+      e.preventDefault();
+    };
+
+    document.addEventListener('contextmenu', handleContextMenu);
+
+    return () => {
+      document.removeEventListener('contextmenu', handleContextMenu);
+    };
+  }, [])
+
   return (
     <div className="App">
       <NavBar />
