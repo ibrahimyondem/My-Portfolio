@@ -38,7 +38,7 @@ function Projects() {
       description: "A data science project analyzing COVID-19 datasets to train and evaluate machine learning models for outcome prediction and feature importance analysis.",
       technologies: ["Python", "Pandas", "scikit-learn", "Jupyter"],
       icon: "📊",
-      github: "https://github.com/ibrahimyondem",
+      github: "https://github.com/ibrahimyondem/covid-19-prediction",
       demo: null
     },
     {
