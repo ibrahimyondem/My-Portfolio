@@ -10,7 +10,7 @@ function Projects() {
       description: "A full-stack web application enabling real-time communication through room-based chat. Features user authentication, WebSocket communication, message persistence, typing indicators, and secure password hashing.",
       technologies: ["React", "Node.js", "Express", "Socket.io", "MongoDB", "Mongoose", "bcryptjs"],
       icon: "💬",
-      github: "https://github.com/ibrahimyondem",
+      github: "https://github.com/ibrahimyondem/Real-Time-Chat-WebApp",
       demo: null
     },
 
