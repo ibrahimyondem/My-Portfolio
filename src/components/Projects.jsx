@@ -6,6 +6,15 @@ import todoholicIcon from "../assets/todoholic_icon.png";
 function Projects() {
   const projects = [
     {
+      title: "Real-Time Chat Application",
+      description: "A full-stack web application enabling real-time communication through room-based chat. Features user authentication, WebSocket communication, message persistence, typing indicators, and secure password hashing.",
+      technologies: ["React", "Node.js", "Express", "Socket.io", "MongoDB", "Mongoose", "bcryptjs"],
+      icon: "💬",
+      github: "https://github.com/ibrahimyondem",
+      demo: null
+    },
+
+    {
       title: "Smart Inventory Management System",
       description: "A full-stack web application focused on secure inventory management with user authentication, role-based access control, error handling, and real-time interactivity.",
       technologies: ["C#", "ASP.NET Core", "PostgreSQL", "Docker", "Azure"],
@@ -65,6 +74,7 @@ function Projects() {
       github: "https://github.com/ibrahimyondem/will-you-be-my-valentine",
       demo: "https://ibrahimyondem.github.io/will-you-be-my-valentine/"
     }
+
 
   ];
 
